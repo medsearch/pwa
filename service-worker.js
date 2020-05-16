@@ -1,7 +1,8 @@
 const CACHE_NAME = 'sw-cache-example';
 const toCache = [
-  'index.html',
-  'js/status.js',
+  './',
+  './index.html',
+  './js/status.js',
 ];
 
 self.addEventListener('install', function(event) {
