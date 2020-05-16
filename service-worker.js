@@ -1,9 +1,9 @@
 const CACHE_NAME = 'sw-cache-pwa';
 const toCache = [
-  '/',
-  '/index.html',
-  '/js/status.js',
-  '/images/*',
+  './',
+  './index.html',
+  './js/status.js',
+  './images/*',
 ];
 
 self.addEventListener('install', function(event) {
