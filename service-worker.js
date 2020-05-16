@@ -3,7 +3,7 @@ const toCache = [
   './',
   './index.html',
   './js/status.js',
-  './images/*',
+  './images/apple-touch.png',
 ];
 
 self.addEventListener('install', function(event) {
