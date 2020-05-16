@@ -4,7 +4,7 @@
     "description": "Progressive Web App example",
     "icons": [
       {
-        "src": "/../images/splash-screen.png",
+        "src": "./../images/splash-screen.png",
         "sizes": "512x512",
         "type": "image/png"
       }
