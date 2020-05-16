@@ -1,6 +1,5 @@
 const CACHE_NAME = 'sw-cache-example';
 const toCache = [
-  '',
   'index.html',
   'js/status.js',
 ];
