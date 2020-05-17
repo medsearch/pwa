@@ -1,9 +1,9 @@
 const CACHE_NAME = 'sw-cache-pwa';
 const toCache = [
-  './',
-  './index.html',
-  './js/status.js',
-  './images/apple-touch.png',
+  //'./',
+  './offline.html',
+  //'./js/status.js',
+  //'./images/apple-touch.png',
 ];
 
 self.addEventListener('install', function(event) {
