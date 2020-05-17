@@ -22,7 +22,7 @@ self.addEventListener('fetch', function(event) {
         .catch(() => {
           return caches.open(CACHE_NAME)
             .then((cache) => {
-              return cache.match(event.request)
+              return cache.match('offline.html')
             })
         })
     )
