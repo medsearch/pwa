@@ -1,6 +1,8 @@
 const notificationButton = document.getElementById('enableNotifications');
 let swRegistration = null;
 
+initializeApp();
+
 function initializeApp() {
   if ('serviceWorker' in navigator && 'PushManager' in window) {
     console.log('Service Worker and Push is supported');
