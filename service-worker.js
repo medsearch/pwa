@@ -42,3 +42,13 @@ self.addEventListener('fetch', function(event) {
         .then(() => self.clients.claim())
     )
   })
+
+self.addEventListener('push', event => {
+    const dataJSON = event.data.json();
+
+    const notificationOptions = {
+        body: dataJSON.body,
+    };
+
+    return self.registration.showNotification(dataJSON.title, notificationOptions);
+});
