@@ -44,9 +44,7 @@ self.addEventListener('fetch', function(event) {
   })
 
 self.addEventListener('push', event => {
-  console.log(event);
     const dataJSON = event.data.json();
-
     const notificationOptions = {
         body: dataJSON.body,
     };
