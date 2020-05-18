@@ -57,7 +57,7 @@ function displayNotification() {
 function notification() {
   const options = {
     body: 'Testing Our Notification',
-    icon: './../images/bell.png'
+    icon: './images/bell.png'
   };
   swRegistration.showNotification('PWA Notification!', options);
 }
