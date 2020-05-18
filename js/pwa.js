@@ -59,6 +59,7 @@ function notification() {
     body: 'Testing Our Notification',
     icon: './images/bell.png'
   };
+  console.log('Show notification');
   swRegistration.showNotification('PWA Notification!', options);
 }
 
